@@ -1,0 +1,116 @@
+html {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    background-color: black;
+    margin-top: 100px;
+}
+
+#conteudo_principal {
+    left: 476px;
+    top: 197px;
+    width: 1000px;
+    height: 1000px;
+    box-sizing: border-box;
+}
+
+#verde_vermelho {
+    display: flex;
+}
+
+#verde {
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    top: 197px;
+    left: 476px;
+    width: 500px;
+    height: 500px;
+    background: #32cd32c3;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+#verde:active {
+    background: #32cd32;
+    cursor: pointer;
+    border: white solid 5px;
+}
+
+#vermelho {
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    top: 197px;
+    left: 726px;
+    width: 500px;
+    height: 500px;
+    background: #ff0000b4;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+#vermelho:active {
+    background: #ff0000;
+    cursor: pointer;
+    border: white solid 5px;
+}
+
+
+#centro {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: black;   
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    font-size: 40px;
+    border: white solid 20px;
+}
+
+#amarelo_azul {
+    display: flex;
+}
+
+#amarelo {
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    top: 53px;
+    left: 476px;
+    width: 500px;
+    height: 500px;
+    background: #ffff00ca;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+#amarelo:active {
+    background: #ffff00;
+    cursor: pointer;
+    border: white solid 5px;
+}
+
+#azul {
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    top: 53px;
+    left: 726px;
+    width: 500px;
+    height: 500px;
+    background: #00ffffc1;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+#azul:active {
+    background: #00ffff;
+    cursor: pointer;
+    border: white solid 5px;
+}
